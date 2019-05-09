@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
       dataArray.each do |name|
         if sendHash[name].has_key?(trait) == false
           sendHash = sendHash.merge( {name => { trait => [(dataKey.to_s)] } } )  
-          binding.pry
+          #binding.pry
         else
           sendHash[name][trait] << dataKey.to_s  
           binding.pry
