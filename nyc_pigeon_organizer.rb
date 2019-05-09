@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
   data.each do |trait, dataHash|
     dataHash.each do |dataKey, dataArray|
       dataArray.each do |name|
-        if sendHash.has_key?(trait) == false
+        if sendHash.has_key?(name) == false
           sendHash = sendHash.merge( {name => { trait => [(dataKey.to_s)] } } )  
           #binding.pry
         else
