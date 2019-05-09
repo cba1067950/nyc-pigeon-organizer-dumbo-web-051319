@@ -3,7 +3,7 @@ require 'pry'
 def nyc_pigeon_organizer(data)
   # write your code here!
   nameArray = []
-  sendHash = pigeon_list => {}
+  sendHash = {}
   
   data.each do |trait, dataHash|
     dataHash.each do |dataKey, dataArray|
