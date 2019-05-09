@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
   data.each do |trait, dataHash|
     dataHash.each do |dataKey, dataArray|
       dataArray.each do |name|
-        sendHash[:pigeon_list] = {name => [(dataKey.to_s)]}   #this overwrites all your previous names
+        sendHash = {name => [(dataKey.to_s)]}   #this overwrites all your previous names
         binding.pry
       end
       binding.pry
