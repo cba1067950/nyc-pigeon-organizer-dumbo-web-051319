@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
     dataHash.each do |dataKey, dataArray|
       dataArray.each do |name|
         sendHash = sendHash.merge( {name => { trait => [(dataKey.to_s)] } } )  #this overwrites all your previous names
-        binding.pry
+        #binding.pry
       end
       binding.pry
       #nameArray += dataArray
