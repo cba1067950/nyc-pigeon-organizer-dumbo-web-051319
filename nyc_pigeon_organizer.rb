@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(data)
           sendHash = sendHash.merge( name => {} )
         end
         binding.pry
-        if sendHash[name].has_key?(trait) == false 
+        if sendHash["#{name}"].has_key?(trait) == false 
           
         else
           sendHash[name][trait] << dataKey.to_s  
