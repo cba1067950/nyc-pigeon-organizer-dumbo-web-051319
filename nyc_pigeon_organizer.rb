@@ -17,7 +17,7 @@ def nyc_pigeon_organizer(data)
           sendHash = sendHash.merge( {name => { trait => [(dataKey.to_s)] } } )  
         else
           sendHash["#{name}"][trait] << dataKey.to_s  
-          binding.pry
+          #binding.pry
         end
         #binding.pry
       end
