@@ -17,7 +17,6 @@ def nyc_pigeon_organizer(data)
         end
         #binding.pry
       end
-      #binding.pry
       #nameArray += dataArray
     end
     #nameArray = nameArray.uniq
