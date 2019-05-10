@@ -20,7 +20,7 @@ def nyc_pigeon_organizer(data)
           sendHash["#{name}"][trait] << dataKey.to_s  
           #binding.pry
         end
-        #binding.pry
+        binding.pry
       end
     end
   binding.pry
